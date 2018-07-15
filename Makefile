@@ -25,7 +25,7 @@ $(TARGET):$(OBJS)
 
 #add a dependancy
 test: $(TARGET) 
-	./$(TARGET)
+	./$(TARGET) + 34 7
 
 clean:
 	rm -f $(TARGET) *.o
